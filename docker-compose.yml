@@ -12,7 +12,7 @@ services:
       POSTGRES_DB: ${POSTGRES_DB}
   peppermint:
     container_name: peppermint
-    image: pepperlabs/peppermint:latest
+    image: pepperlabs/peppermint:nightly
     ports:
       - 1000:3000
       - 1001:5003
